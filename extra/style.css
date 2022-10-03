@@ -1,0 +1,1033 @@
+:root{
+  --body-bg: #fff;
+	--nav-item: #000000;
+	--nav-item-hover: #999;
+	--item-warwera: #fff
+}
+
+.dark_mode{
+  --body-bg: #252525;
+	--nav-item: rgb(244, 244, 244);
+	--nav-item-hover: #999;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	background-color: var(--body-bg);
+}
+
+.borgermenu {
+	width: 50px;
+	height: 50px;
+	background-image: url(suratebi/burgermenu.png);
+	background-size: 100%;
+	display: none;
+}
+
+header {
+	width: 1271px;
+	height: 61px;
+	margin-left: 100px;
+	margin-top: 50px;
+	position: relative;
+}
+
+.delyver {
+	width: 83px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0px;
+	font-size: 18px;
+}
+
+.active {
+	color: #777776;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+}
+
+header ul {
+	width: 563px;
+	height: 43px;
+	position: absolute;
+	bottom: 0px;
+	left: 25%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+header ul li a {
+	color: var(--nav-item);
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+header ul li a:hover {
+	color: var(--nav-item-hover);
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+}
+
+.chartva {
+	width: 33.33px;
+	height: 20px;
+	background-image: url(suratebi/chartva.png);
+	background-size: 100%;
+	position: absolute;
+	bottom: 0;
+	right: 20%;
+	cursor: pointer;
+}
+
+.ordernow,
+.getstart {
+	width: 179px;
+	height: 61px;
+	border-radius: 61px 61px 61px 61px;
+	background-color: #FDC72D;
+	padding: 20px 45px;
+	position: absolute;
+	right: 0px;
+	font-weight: bold;
+}
+
+form{
+	width: 50%;
+	margin: 0 auto;
+}
+form input{
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0px;
+}
+#fname, #lname{
+	width: 40%;
+}
+#lname{
+	margin-left: 30px;
+}
+
+#register{
+	background-color: #FDC72D;
+	color: #000;
+}
+#register:hover{
+	background-color: #777776;
+	color: #ffff;
+	cursor: pointer;
+}
+
+
+.ordernow:hover {
+	background-color: #777776;
+	color: white;
+	cursor: pointer;
+}
+
+/* indexhtml--------------------- */
+.mtavaricharcho {
+	width: 1320px;
+	margin: 100px auto;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.warwera {
+	width: 466px;
+}
+
+.warwera h1 {
+	font-size: 60px;
+}
+
+.warwera p {
+	margin-top: 50px;
+	font-size: 20px;
+	color: #777776;
+}
+
+.img {
+	width: 871px;
+	height: 723px;
+	background-image: url(suratebi/delyver.png);
+	background-size: 100%;
+}
+
+.getstart {
+	position: absolute;
+	bottom: 100px;
+	left: 0px;
+	color: #000000;
+}
+
+.getstart:hover {
+	background-color: #777776;
+	color: white;
+}
+
+/* about html-------------------  */
+.aboutuscharcho,
+.aboutuscharcho2 {
+	width: 1286px;
+	margin: 100px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.aboutfoto {
+	width: 675.3px;
+	height: 506px;
+	background-image: url(suratebi/mitana.png);
+	background-size: 100%;
+}
+
+.abouttaxt {
+	width: 511px;
+}
+
+.abouttaxt h1 {
+	font-size: 40px;
+}
+
+.abouttaxt p {
+	font-size: 22px;
+	margin-top: 50px;
+	color: #777776;
+}
+
+.aboutuscharcho2 {
+	width: 1244px;
+	margin: 100px auto;
+
+}
+
+.abouttaxt2 {
+	width: 502px;
+}
+
+.abouttaxt2 h1 {
+	width: 331px;
+	font-size: 40px;
+}
+
+.abouttaxt2 p {
+	width: 502px;
+	font-size: 20px;
+	margin-top: 50px;
+	color: #777776;
+}
+
+.aboutfoto2 {
+	width: 745px;
+	height: 491.46px;
+	background-image: url(suratebi/kurieri.png);
+	background-size: 100%;
+}
+
+/* servicehtml------------------------------ */
+
+.someservicetitle {
+	width: 380px;
+	margin: 100px auto;
+	text-align: center;
+}
+
+.someservicetitle h1 {
+	font-size: 40px;
+}
+
+.someserviccharco {
+	width: 1332px;
+	margin: 100px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.kvadratf {
+	width: 380px;
+	height: 380px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px #777776;
+	border-radius: 15px 15px 15px 15px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.kvadratf p {
+	font-size: 20px;
+}
+
+.somefoto,
+.somefoto1,
+.somefoto2 {
+	width: 202px;
+	height: 121.81px;
+	margin-top: 20px;
+	background-image: url(suratebi/delyver1.png);
+	background-size: 100%;
+}
+
+.somefoto {
+	margin-bottom: 35px;
+}
+
+.somefoto1 {
+	width: 146px;
+	height: 147.27px;
+	margin-bottom: 10px;
+	background-image: url(suratebi/deliver2.png);
+	background-size: 100%;
+}
+
+.somefoto2 {
+	width: 152px;
+	height: 142.75px;
+	margin-bottom: 10px;
+	background-image: url(suratebi/delyver3.png);
+	background-size: 100%;
+}
+
+.somewarwera p {
+	width: 235px;
+	text-align: center;
+	color: #777776;
+	font-size: 15px;
+}
+
+.lernmore {
+	margin-top: 40px;
+}
+
+.lernmore p {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.lernmore:hover {
+	color: #777776;
+	cursor: pointer;
+}
+
+
+.servicecharco2 {
+	width: 1248px;
+	margin: 100px auto;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.servicefoto {
+	width: 543px;
+	height: 498.09px;
+	background-image: url(suratebi/map.png);
+	background-size: 100%;
+}
+
+.servicewarwera {
+	width: 510px;
+	height: auto;
+}
+
+.servicewarwera h1 {
+	width: 439px;
+	font-size: 41px;
+}
+
+.servicewarwera p {
+	width: 510px;
+	margin-top: 50px;
+	color: #777776;
+	font-size: 21px;
+}
+
+.gilaki {
+	width: 451px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	right: 60px;
+	bottom: 0px;
+}
+
+.gilaki a {
+	color: #000000;
+}
+
+.apple,
+.google {
+
+	width: 204px;
+	height: 61px;
+	background-color: #FDC72D;
+	padding: 0px 30px;
+	border-radius: 61px 61px 61px 61px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.apple .icon {
+	width: 23px;
+	height: 27px;
+	background-image: url(suratebi/iphone.png);
+	background-size: 100%;
+
+}
+
+.apple p {
+	font-size: 20px;
+}
+
+.google .icon {
+	width: 22px;
+	height: 24px;
+	background-image: url(suratebi/google.png);
+	background-size: 100%;
+}
+
+.google p {
+	font-size: 20px;
+}
+
+.apple:hover {
+	background-color: #777776;
+	color: white;
+}
+
+.google:hover {
+	background-color: #777776;
+	color: white;
+}
+
+
+/* contach html--------------------------- */
+
+.contactconteiner {
+	width: 1239px;
+	height: 244px;
+	margin: 200px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contactustext {
+	width: 506px;
+	height: 244px;
+
+}
+
+.contactustext h1 {
+	width: 353px;
+	height: 124px;
+	font-size: 44px;
+}
+
+.contacttext1 {
+	width: 506px;
+	height: 90px;
+	font-size: 24px;
+	margin-top: 30px;
+	color: #777776;
+}
+
+.contact {
+	width: 280px;
+	height: 125px;
+}
+
+.sakontacto {
+	margin-top: 20px;
+}
+
+.contactus {
+	width: 179px;
+	height: 61px;
+	background-color: #FDC72D;
+	border-radius: 61px 61px 61px 61px;
+	text-align: center;
+	padding: 20px;
+}
+
+.contactus:hover {
+	background-color: #777776;
+	color: white;
+	cursor: pointer;
+}
+
+.contactus p {
+	font-weight: bold;
+}
+
+.contact p {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #777776;
+}
+
+.contact b {
+	color: #000000;
+}
+
+footer {
+	width: 100%;
+	height: 450px;
+	background-color: #FEE395;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer b {
+	font-size: 18px;
+}
+
+.dalyver {
+	width: 183px;
+	height: 98px;
+	margin-top: 100px;
+}
+
+.dalyver p {
+	margin-top: 40px;
+	color: #777776;
+}
+
+.ourservice {
+	width: 128px;
+	height: 165px;
+	margin-top: 100px;
+}
+
+.pklas {
+	margin-top: 40px;
+}
+
+.pklas p {
+	margin-top: 10px;
+	color: #777776;
+}
+
+.ourcompany {
+	width: 144px;
+	height: 134px;
+	margin-top: 100px;
+}
+
+.comuniti {
+	width: 122px;
+	height: 134px;
+	margin-top: 100px;
+}
+
+.soushal {
+	width: 160px;
+	height: 27px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.fb,
+.inst {
+	width: 27px;
+	height: 27px;
+	background-image: url(suratebi/fb.png);
+	background-size: 100%;
+}
+
+.tvit {
+	width: 26px;
+	height: 22px;
+	background-image: url(suratebi/tvit.png);
+	background-size: 100%;
+}
+
+.inst {
+	background-image: url(suratebi/insta.png);
+	background-size: 100%;
+}
+
+.akinkia {
+	width: 215px;
+	height: 23px;
+	position: absolute;
+	bottom: 50px;
+	align-items: center;
+	color: #777776;
+}
+
+@media only screen and (max-width:1024px) {
+	body {
+		max-width: 100%;
+	}
+
+	header {
+		max-width: 100%;
+		height: 61px;
+		margin: 50px auto;
+		position: relative;
+	}
+
+	.delyver {
+		left: 20px;
+	}
+
+	.active {
+		color: #777776;
+		padding-bottom: 5px;
+		border-bottom: 2px solid black;
+	}
+
+	header ul {
+		bottom: 0px;
+		left: 15%;
+	}
+
+	.chartva {
+		right: 22%;
+	}
+
+	.ordernow {
+		right: 20px;
+	}
+
+	/* index: .html----------------------- */
+	.mtavaricharcho {
+		max-width: 904px;
+		margin: 100px auto;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.getstart {
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		color: #000000;
+	}
+
+	/* abouthtml------------------------- */
+
+
+	.aboutuscharcho {
+		width: 850px;
+		margin: 100px auto;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.abouttaxt {
+		width: 511px;
+		margin-top: 40px;
+	}
+
+
+	.aboutuscharcho2 {
+		width: 1000px;
+		margin: 100px auto;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+	}
+
+	.abouttaxt2 {
+		width: 502px;
+		margin-top: 40px;
+	}
+
+	.aboutfoto2 {
+		margin-top: 40px;
+	}
+
+	/* servicehtml---------------------- */
+
+	.someserviccharco {
+		width: 1000px;
+		margin: 100px auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.servicecharco2 {
+		width: 832px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.gilaki {
+		width: 451px;
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 650px;
+		left: auto;
+		right: auto;
+	}
+
+	/* servicehtml-------------------- */
+
+
+	.contactconteiner {
+		width: 1000px;
+		height: 244px;
+		margin: 200px auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.contacttext1 {
+		width: 330px;
+	}
+
+	footer {
+		max-width: 100%;
+	}
+
+}
+
+/* iphone xs-------- 
+es aris iphone Xs ekrani*/
+
+@media only screen and (max-width:375px) {
+	body {
+		max-width: 100%;
+	}
+
+	header ul {
+		width: 100%;
+		display: flex;
+		position: absolute;
+		top: 100px;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	header {
+		max-width: 375px;
+		height: 150px;
+		overflow: hidden;
+	}
+
+	.borgermenu {
+		display: block;
+		position: absolute;
+		right: 30px;
+		top: 20px;
+	}
+
+	.delyver {
+		position: absolute;
+		top: 20px;
+	}
+
+	header {
+		height: 100px;
+	}
+
+	.ordernow {
+		width: 159px;
+		height: 41px;
+		display: flex;
+		align-items: center;
+		position: absolute;
+		bottom: 0px;
+		left: 5px;
+	}
+
+	.ordernow p {
+		font-size: 12px;
+	}
+
+	.chartva {
+		position: absolute;
+		top: 20px;
+		left: 100px;
+	}
+
+	.mtavaricharcho {
+		width: 290px;
+		margin-left: 50px;
+	}
+
+	.warwera {
+		width: 190px;
+	}
+
+	.warwera h1 {
+		font-size: 16px;
+	}
+
+	.img {
+		width: 300px;
+		height: 300px;
+	}
+
+	.getstart {
+		width: 159px;
+		height: 41px;
+		display: flex;
+		align-items: center;
+	}
+
+	.getstart p {
+		font-size: 12px;
+	}
+
+	/* abouthtml---------------------- */
+
+	.aboutuscharcho {
+		width: 200px;
+		margin-left: 85px;
+	}
+
+	.aboutfoto {
+		width: 200.3px;
+		height: 148px;
+	}
+
+	.abouttaxt {
+		width: 197px;
+	}
+
+	.abouttaxt h1 {
+		font-size: 25px;
+	}
+
+	.aboutuscharcho2 {
+		width: 212px;
+		margin-left: 80px;
+	}
+
+	.abouttaxt2 {
+		width: 197px;
+	}
+
+	.abouttaxt2 h1 {
+		font-size: 30px;
+	}
+
+	.abouttaxt2 p {
+		width: 210px;
+	}
+
+	.aboutfoto2 {
+		width: 205.3px;
+		height: 136px;
+	}
+
+	/* DERVICEHTML-------------- */
+
+	.someservicetitle h1 {
+		font-size: 33px;
+	}
+
+	.someservicetitle {
+		width: 240px;
+	}
+
+	.someserviccharco {
+		width: 250px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.kvadratf {
+		width: 250px;
+		height: 250px;
+		margin-top: 20px;
+	}
+
+	.kvadratf p {
+		font-size: 12px;
+	}
+
+	.somefoto {
+		width: 110px;
+		height: 90.81px;
+	}
+
+	.somefoto1 {
+		width: 99px;
+		height: 112.27px;
+	}
+
+	.somefoto2 {
+		width: 87px;
+		height: 106.75px;
+	}
+
+	.servicecharco2 {
+		width: 300px;
+		margin-left: 20px;
+	}
+
+	.servicefoto {
+		margin-right: 250px;
+		width: 239px;
+		height: 220.09px;
+	}
+
+	.servicewarwera h1 {
+		width: 220px;
+		font-size: 21px;
+	}
+
+	.servicewarwera p {
+		width: 220px;
+		margin-left: 20px;
+	}
+
+	.gilaki {
+		position: absolute;
+		top: 400px;
+		left: 0px;
+		width: 275px;
+	}
+
+	.apple,
+	.google {
+		width: 122px;
+		height: 30px;
+	}
+
+	.apple .icon {
+		width: 11px;
+		height: 13px;
+	}
+
+	.apple p {
+		font-size: 10px;
+	}
+
+	.google .icon {
+		width: 11px;
+		height: 13px;
+	}
+
+	.google p {
+		font-size: 9px;
+	}
+
+	/* contacthtml------------------- */
+
+	.contactconteiner {
+		width: 250px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.contactustext {
+		width: 250px;
+		height: 200px;
+	}
+
+	.contactustext h1 {
+		width: 170px;
+		height: 50px;
+		font-size: 25px;
+	}
+
+	.contacttext1 {
+		width: 250px;
+	}
+
+	.contacttext1 p {
+		font-size: 14px;
+	}
+
+	.contact {
+		width: 250px;
+		height: 125px;
+	}
+
+	.contactus {
+		width: 130px;
+		height: 30px;
+		margin-top: 50px;
+	}
+
+	footer {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+/* The Modal (background) */
+.modal {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
